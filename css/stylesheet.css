@@ -4,6 +4,14 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+div p {
+    padding-left: 15px;
+}
+
+ol > li {
+    text-align: center;
+}
+
 /* HEADER */
 header {
     width: 50%;
@@ -71,14 +79,18 @@ header {
     padding: 10px;
 }
 
-.grid-item {
+*.grid-item {
     grid-column: 1.5 / 4;
 }
 
-.flex-item {
+*.flex-item {
     padding: 5px;
     margin-left: 3%;
     text-align: left;
+}
+
+ol.listStuffDone {
+    font-weight: bold;
 }
 
 /* Section New Entry */
@@ -91,10 +103,34 @@ header {
     color: white;
 }
 
+#email {
+    background-color: grey;
+}
+
+[type=text] {
+    background-color: grey;
+}
+
+#Food:active, #Food:hover {
+    color: blue;
+}
+
+label ~ input {
+    font-weight: bold;
+}
+
+textarea.textInside {
+    font-weight: bold;
+}
+
 /* FOOTER */
 footer {
     display: inline;
     min-width: 100%;
     text-align: center;
     position: relative;
+}
+
+h2 + nav {
+    background-color:whitesmoke;
 }
