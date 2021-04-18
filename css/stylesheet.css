@@ -1,0 +1,100 @@
+/* BODY CSS */
+body {
+    background-color: lavender;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgb(90, 116, 133);
+}
+
+/* Section Day 1 */
+.section1 {
+    margin: 10px 20px 10px 20px;
+    color: #5a7485;
+}
+
+.groceryList {
+    padding: 20px 0px 20px 50px;
+    text-decoration: none;
+}
+/* Section Day 2 */
+.section2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: hsl(204, 19%, 44%);
+}
+
+.animatedGif {
+    padding-left: 45%;
+    padding-top: 1%;
+    padding-right: 45%;
+    padding-bottom: 1%;
+    width: 10%
+}
+/* Section Day 3 */
+.section3 {
+    margin: 10px 20px 10px 20px;
+    color: #5a7485;
+}
+
+.beachPic {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: sticky;
+}
+
+.listBrought {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    flex-grow: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.listStuffDone {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    grid-column: 1.5 / 4;
+}
+
+.flex-item {
+    padding: 5px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+/* Section New Entry */
+.submitButton:hover {
+    color: blue;
+}
+
+.submitButton:active {
+    background-color: blue;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    display: inline;
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+}
